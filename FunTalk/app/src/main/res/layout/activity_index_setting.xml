@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_cover">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="450dp">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="152dp"
+                android:src="@mipmap/chinese_english"
+                android:layout_marginRight="200dp">
+            </ImageView>
+
+            <ImageButton
+                android:id="@+id/chineseBtn"
+                android:layout_width="90dp"
+                android:layout_height="81dp"
+                android:background="@mipmap/chinese"
+                android:layout_marginRight="200dp">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/englishBtn"
+                android:layout_width="105dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/english_select">
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="450dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="152dp"
+                android:src="@mipmap/music"
+                android:layout_marginRight="100dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:background="@drawable/shape_login_background"
+                android:gravity="center_vertical">
+
+                <SeekBar
+                    android:layout_width="600dp"
+                    android:layout_height="100dp"
+                    android:maxHeight="100dp"
+                    android:minHeight="10dp"
+                    android:progressDrawable="@drawable/seekbar_barlayer"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null">
+                </SeekBar>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="65%"
+                    android:textSize="64sp">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/setting_close"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="115dp">
+    </ImageButton>
+
+</RelativeLayout>

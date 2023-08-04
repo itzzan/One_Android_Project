@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="776dp"
                 android:layout_height="346dp"
-                android:src="@drawable/funlike_text2">
+                android:src="@mipmap/funlike_text2">
             </ImageView>
 
             <LinearLayout
@@ -41,7 +41,7 @@
                         android:layout_width="300dp"
                         android:layout_height="130dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/logintext">
+                        android:background="@mipmap/logintext">
                     </ImageView>
 
                     <LinearLayout
@@ -59,7 +59,7 @@
                             <ImageView
                                 android:layout_width="160dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/accounttext">
+                                android:background="@mipmap/accounttext">
                             </ImageView>
 
                             <EditText
@@ -90,7 +90,7 @@
                             <ImageView
                                 android:layout_width="160dp"
                                 android:layout_height="80dp"
-                                android:background="@drawable/passwordtext">
+                                android:background="@mipmap/passwordtext">
                             </ImageView>
 
                             <EditText
@@ -125,15 +125,17 @@
                             android:id="@+id/loginBtn"
                             android:layout_width="250dp"
                             android:layout_height="90dp"
-                            android:background="@drawable/loginbtn"
+                            android:background="@mipmap/loginbtn"
                             android:onClick="tiaozhuan"
                             android:layout_marginRight="50dp">
                         </Button>
 
                         <Button
+                            android:id="@+id/registerBtn"
                             android:layout_width="250dp"
                             android:layout_height="90dp"
-                            android:background="@drawable/registerbtn">
+                            android:background="@mipmap/registerbtn"
+                            android:onClick="tiaozhuan2">
                         </Button>
                     </LinearLayout>
                 </LinearLayout>

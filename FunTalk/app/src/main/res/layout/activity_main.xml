@@ -20,10 +20,10 @@
             android:layout_marginLeft="50dp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="66dp"
                 android:layout_gravity="top"
-                android:background="@drawable/starnum"
+                android:background="@mipmap/starnum"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp">
@@ -49,35 +49,34 @@
             <ImageView
                 android:layout_width="776dp"
                 android:layout_height="346dp"
-                android:src="@drawable/funlike_text2">
+                android:src="@mipmap/funlike_text2">
             </ImageView>
 
             <Button
                 android:id="@+id/index_startBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/index_imgbutton_start"
+                android:layout_width="567dp"
+                android:layout_height="172dp"
+                android:background="@mipmap/index_imgbutton_start"
                 android:layout_marginTop="120dp"
                 android:layout_marginBottom="50dp">
             </Button>
 
             <Button
                 android:id="@+id/index_closeBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/index_imgbutton_close">
+                android:layout_width="567dp"
+                android:layout_height="172dp"
+                android:background="@mipmap/index_imgbutton_close">
             </Button>
         </LinearLayout>
 
         <Button
             android:id="@+id/index_settingBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/settingbtn"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:background="@mipmap/settingbtn"
             android:layout_marginTop="80dp"
             android:layout_marginRight="80dp"
-            android:layout_alignParentRight="true"
-            android:onClick="settingClick">
+            android:layout_alignParentRight="true">
         </Button>
     </RelativeLayout>
 </RelativeLayout>

@@ -17,19 +17,19 @@
             android:gravity="center_horizontal">
 
             <ImageView
-                android:layout_width="776dp"
-                android:layout_height="346dp"
+                android:layout_width="@dimen/h_776dp"
+                android:layout_height="@dimen/h_346dp"
                 android:src="@mipmap/funlike_text2">
             </ImageView>
 
             <LinearLayout
-                android:layout_width="690dp"
-                android:layout_height="520dp"
+                android:layout_width="@dimen/h_690dp"
+                android:layout_height="@dimen/h_520dp"
                 android:orientation="vertical"
                 android:background="@drawable/shape_login_background"
                 android:layout_gravity="center"
                 android:alpha="0.85"
-                android:paddingTop="30dp">
+                android:paddingTop="@dimen/h_25dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -38,8 +38,8 @@
                     android:layout_gravity="center">
 
                     <ImageView
-                        android:layout_width="300dp"
-                        android:layout_height="130dp"
+                        android:layout_width="@dimen/h_300dp"
+                        android:layout_height="@dimen/h_130dp"
                         android:layout_gravity="center_horizontal"
                         android:background="@mipmap/logintext">
                     </ImageView>
@@ -48,7 +48,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:paddingLeft="40dp"
+                        android:paddingLeft="@dimen/h_40dp"
                         android:gravity="center">
 
                         <LinearLayout
@@ -57,28 +57,28 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:layout_width="160dp"
-                                android:layout_height="80dp"
+                                android:layout_width="@dimen/h_160dp"
+                                android:layout_height="@dimen/h_80dp"
                                 android:background="@mipmap/accounttext">
                             </ImageView>
 
                             <EditText
-                                android:layout_width="380dp"
+                                android:layout_width="@dimen/h_380dp"
                                 android:layout_height="wrap_content"
                                 android:textColor="#ffffff"
-                                android:textSize="40sp"
+                                android:textSize="@dimen/h_40sp"
                                 android:textStyle="bold"
                                 android:background="@null"
-                                android:layout_marginTop="15dp"
+                                android:layout_marginTop="@dimen/h_15dp"
                                 android:inputType="text">
                             </EditText>
                         </LinearLayout>
 
                         <View
                             android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:layout_marginLeft="140dp"
-                            android:layout_marginRight="100dp"
+                            android:layout_height="@dimen/h_10dp"
+                            android:layout_marginLeft="@dimen/h_140dp"
+                            android:layout_marginRight="@dimen/h_100dp"
                             android:background="@drawable/shape_login_edittext">
                         </View>
 
@@ -88,28 +88,28 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:layout_width="160dp"
-                                android:layout_height="80dp"
+                                android:layout_width="@dimen/h_160dp"
+                                android:layout_height="@dimen/h_80dp"
                                 android:background="@mipmap/passwordtext">
                             </ImageView>
 
                             <EditText
-                                android:layout_width="380dp"
+                                android:layout_width="@dimen/h_380dp"
                                 android:layout_height="wrap_content"
                                 android:textColor="#ffffff"
-                                android:textSize="40sp"
+                                android:textSize="@dimen/h_40sp"
                                 android:textStyle="bold"
                                 android:background="@null"
-                                android:layout_marginTop="15dp"
+                                android:layout_marginTop="@dimen/h_15dp"
                                 android:inputType="textPassword">
                             </EditText>
                         </LinearLayout>
 
                         <View
                             android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:layout_marginLeft="140dp"
-                            android:layout_marginRight="100dp"
+                            android:layout_height="@dimen/h_10dp"
+                            android:layout_marginLeft="@dimen/h_140dp"
+                            android:layout_marginRight="@dimen/h_100dp"
                             android:background="@drawable/shape_login_edittext">
                         </View>
                     </LinearLayout>
@@ -118,22 +118,22 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_marginTop="50dp"
+                        android:layout_marginTop="@dimen/h_50dp"
                         android:gravity="center">
 
                         <Button
                             android:id="@+id/loginBtn"
-                            android:layout_width="250dp"
-                            android:layout_height="90dp"
+                            android:layout_width="@dimen/h_250dp"
+                            android:layout_height="@dimen/h_90dp"
                             android:background="@mipmap/loginbtn"
                             android:onClick="tiaozhuan"
-                            android:layout_marginRight="50dp">
+                            android:layout_marginRight="@dimen/h_50dp">
                         </Button>
 
                         <Button
                             android:id="@+id/registerBtn"
-                            android:layout_width="250dp"
-                            android:layout_height="90dp"
+                            android:layout_width="@dimen/h_250dp"
+                            android:layout_height="@dimen/h_90dp"
                             android:background="@mipmap/registerbtn"
                             android:onClick="tiaozhuan2">
                         </Button>

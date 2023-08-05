@@ -47,12 +47,12 @@ public class LoadingActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // 跳转到另一个页面的代码
-                Intent intent = new Intent(LoadingActivity.this, MainActivity.class);
+                Intent intent = new Intent(LoadingActivity.this, GameOverActivity.class);
                 startActivity(intent);
                 mediaPlayer.stop();
                 mediaPlayer.release();
                 finish(); // 可选，根据需求决定是否关闭当前页面
             }
-        }, 4000);
+        }, 3900);
     }
 }

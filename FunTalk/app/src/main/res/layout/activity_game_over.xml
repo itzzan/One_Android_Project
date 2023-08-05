@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000036">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gameover_cover">
+
+        <!--左上角星星-->
+        <LinearLayout
+            android:layout_width="@dimen/h_300dp"
+            android:layout_height="@dimen/h_80dp"
+            android:background="@drawable/gameover_star_cover"
+            android:layout_marginLeft="@dimen/h_90dp"
+            android:layout_marginTop="@dimen/h_55dp">
+
+            <LinearLayout
+                android:layout_width="@dimen/h_145dp"
+                android:layout_height="@dimen/h_70dp"
+                android:background="@drawable/gameover_star"
+                android:layout_marginTop="@dimen/h_5dp"
+                android:layout_marginLeft="@dimen/h_5dp">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--几杠几-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/h_165dp"
+            android:layout_marginTop="@dimen/h_60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25"
+                android:textSize="@dimen/h_54sp"
+                android:textColor="#9B4F0F"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textSize="@dimen/h_54sp"
+                android:textColor="#FBE4B0"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:textSize="@dimen/h_54sp"
+                android:textColor="#FBE4B0"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+        </LinearLayout>
+
+
+        <!--右上角主页标识-->
+        <Button
+            android:id="@+id/homeBtn"
+            android:layout_width="@dimen/h_60dp"
+            android:layout_height="@dimen/h_60dp"
+            android:background="@mipmap/home"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/h_52dp"
+            android:layout_marginRight="@dimen/h_50dp"
+            android:onClick="GoHome">
+        </Button>
+        <!--恭喜你文字-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/h_300dp"
+            android:layout_marginLeft="@dimen/h_405dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="恭喜你！"
+                android:textSize="@dimen/h_35sp"
+                android:textColor="#C7D0FF"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="@dimen/h_320dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="你在旅游场景的视"
+                        android:textSize="@dimen/h_35sp"
+                        android:textColor="#C7D0FF"
+                        android:textStyle="bold">
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="频中获得了"
+                            android:textSize="@dimen/h_35sp"
+                            android:textColor="#C7D0FF"
+                            android:textStyle="bold">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"
+                            android:textSize="@dimen/h_40sp"
+                            android:textColor="#F7A592"
+                            android:textStyle="bold">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="颗"
+                            android:textSize="@dimen/h_35sp"
+                            android:textColor="#C7D0FF"
+                            android:textStyle="bold">
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="小星星，超过了"
+                            android:textSize="@dimen/h_35sp"
+                            android:textColor="#C7D0FF"
+                            android:textStyle="bold">
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="90%"
+                            android:textSize="@dimen/h_40sp"
+                            android:textColor="#F7A592"
+                            android:textStyle="bold">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="的趣说者。"
+                            android:textSize="@dimen/h_35sp"
+                            android:textColor="#C7D0FF"
+                            android:textStyle="bold">
+                        </TextView>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--按钮-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/h_850dp"
+            android:layout_marginTop="@dimen/h_330dp">
+
+            <Button
+                android:layout_width="@dimen/h_500dp"
+                android:layout_height="@dimen/h_150dp"
+                android:background="@mipmap/game_over_review"
+                android:layout_marginBottom="@dimen/h_60dp">
+            </Button>
+
+            <Button
+                android:layout_width="@dimen/h_500dp"
+                android:layout_height="@dimen/h_150dp"
+                android:background="@mipmap/game_over_chat">
+            </Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

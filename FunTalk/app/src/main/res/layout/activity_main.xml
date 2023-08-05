@@ -11,29 +11,29 @@
         android:background="@drawable/cover">
 
         <LinearLayout
-            android:layout_width="250dp"
-            android:layout_height="90dp"
+            android:layout_width="@dimen/h_250dp"
+            android:layout_height="@dimen/h_90dp"
             android:orientation="horizontal"
             android:background="@drawable/star_num_shape"
-            android:layout_marginTop="55dp"
-            android:layout_marginRight="80dp"
-            android:layout_marginLeft="50dp">
+            android:layout_marginTop="@dimen/h_55dp"
+            android:layout_marginRight="@dimen/h_80dp"
+            android:layout_marginLeft="@dimen/h_50dp">
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="66dp"
+                android:layout_width="@dimen/h_70dp"
+                android:layout_height="@dimen/h_66dp"
                 android:layout_gravity="top"
                 android:background="@mipmap/starnum"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
+                android:layout_marginTop="@dimen/h_10dp"
+                android:layout_marginLeft="@dimen/h_20dp"
+                android:layout_marginRight="@dimen/h_20dp">
             </ImageView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="1500"
-                android:textSize="48sp"
+                android:textSize="@dimen/h_48sp"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:gravity="center_vertical">
@@ -47,35 +47,35 @@
             android:gravity="center_horizontal">
 
             <ImageView
-                android:layout_width="776dp"
-                android:layout_height="346dp"
+                android:layout_width="@dimen/h_776dp"
+                android:layout_height="@dimen/h_346dp"
                 android:src="@mipmap/funlike_text2">
             </ImageView>
 
             <Button
                 android:id="@+id/index_startBtn"
-                android:layout_width="567dp"
-                android:layout_height="172dp"
+                android:layout_width="@dimen/h_567dp"
+                android:layout_height="@dimen/h_172dp"
                 android:background="@mipmap/index_imgbutton_start"
-                android:layout_marginTop="120dp"
-                android:layout_marginBottom="50dp">
+                android:layout_marginTop="@dimen/h_100dp"
+                android:layout_marginBottom="@dimen/h_50dp">
             </Button>
 
             <Button
                 android:id="@+id/index_closeBtn"
-                android:layout_width="567dp"
-                android:layout_height="172dp"
+                android:layout_width="@dimen/h_567dp"
+                android:layout_height="@dimen/h_172dp"
                 android:background="@mipmap/index_imgbutton_close">
             </Button>
         </LinearLayout>
 
         <Button
             android:id="@+id/index_settingBtn"
-            android:layout_width="94dp"
-            android:layout_height="90dp"
+            android:layout_width="@dimen/h_94dp"
+            android:layout_height="@dimen/h_90dp"
             android:background="@mipmap/settingbtn"
-            android:layout_marginTop="80dp"
-            android:layout_marginRight="80dp"
+            android:layout_marginTop="@dimen/h_80dp"
+            android:layout_marginRight="@dimen/h_80dp"
             android:layout_alignParentRight="true">
         </Button>
     </RelativeLayout>

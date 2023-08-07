@@ -37,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
         closeGameBtn = findViewById(R.id.index_closeBtn);
         settingBtn = findViewById(R.id.index_settingBtn);
 
+        startGameBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AiSpeechActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // 创建一个Dialog对象
         settingsDialog = new Dialog(MainActivity.this);
         // 设置对话框布局
@@ -71,10 +79,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //中英文转化 - dp 转换成 int
-                chineseBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 105, getResources().getDisplayMetrics()));
-                chineseBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 100, getResources().getDisplayMetrics()));
-                englishBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 90, getResources().getDisplayMetrics()));
-                englishBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 81, getResources().getDisplayMetrics()));
+                chineseBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 70, getResources().getDisplayMetrics()));
+                chineseBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 67, getResources().getDisplayMetrics()));
+                englishBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 60, getResources().getDisplayMetrics()));
+                englishBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 54, getResources().getDisplayMetrics()));
 
                 chineseBtn.setBackground(getDrawable(R.mipmap.chinese_select));
                 englishBtn.setBackground(getDrawable(R.mipmap.english));
@@ -85,10 +93,10 @@ public class MainActivity extends AppCompatActivity {
         englishBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                chineseBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 90, getResources().getDisplayMetrics()));
-                chineseBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 81, getResources().getDisplayMetrics()));
-                englishBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 105, getResources().getDisplayMetrics()));
-                englishBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 100, getResources().getDisplayMetrics()));
+                chineseBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 60, getResources().getDisplayMetrics()));
+                chineseBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 54, getResources().getDisplayMetrics()));
+                englishBtnParams.width = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 70, getResources().getDisplayMetrics()));
+                englishBtnParams.height = ((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 67, getResources().getDisplayMetrics()));
 
                 chineseBtn.setBackground(getDrawable(R.mipmap.chinese));
                 englishBtn.setBackground(getDrawable(R.mipmap.english_select));

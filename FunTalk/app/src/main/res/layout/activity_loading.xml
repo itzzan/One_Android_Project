@@ -8,12 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:background="@drawable/loading_cover">
+        android:background="@mipmap/loading_cover">
 
         <ImageView
             android:id="@+id/img_gif"
-            android:layout_width="@dimen/h_1000dp"
-            android:layout_height="@dimen/h_800dp"
+            android:layout_width="667dp"
+            android:layout_height="533dp"
             android:scaleType="fitXY"></ImageView>
 
     </RelativeLayout>

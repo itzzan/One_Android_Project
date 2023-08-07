@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameModelActivity"
+    android:background="#000036">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/loading_cover">
+
+        <!--右上角叉叉-->
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/model_close"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp">
+        </Button>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
